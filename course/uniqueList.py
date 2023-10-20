@@ -3,8 +3,7 @@ def uniqueList(dataList):
     for element in dataList :
         if element not in comparisonList :
             comparisonList.append(element)
-    for element in comparisonList :
-        print(f'{element}\n')
+    print(comparisonList)
 
 uniqueList([2,3,4,5,2,6])
 print(' ------- ')
