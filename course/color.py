@@ -12,7 +12,6 @@ def color():
     tr = ''
     for letter in message:
         tr += fg(random_color_generator()[0], random_color_generator()[1], random_color_generator()[2]) + letter
-    print(tr)
-    print(fg(255,255,255))
+    print(tr + fg(255,255,255) + ' ')
 
 color()
