@@ -5,6 +5,7 @@ wb = load_workbook('transactions.xlsx')
 
 # grab the active worksheet
 ws = wb.active
+# ws = wb["sheet_1"]
 
 # Data can be assigned directly to cells
 ws['D1'] = 'corrected'
