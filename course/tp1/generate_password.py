@@ -29,7 +29,7 @@ def bruteforce(target_password):
         for j in range(len(possible_characters)):
             if possible_characters[j] == target_password[i]:
                 answer += possible_characters[j]
-                print(f"Tryn number {count}: {answer}")
+                print(f"Try number {count}: {answer}")
             count += 1
 
     print(f'This is the found password with bruteforce : {answer}')
